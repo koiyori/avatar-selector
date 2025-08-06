@@ -1,0 +1,45 @@
+{
+"characters": [
+{ "id": "atobe", "label": "跡部景吾", "hasHairChoices": true, "hasTopChoices": true },
+{ "id": "hiyoshi", "label": "日吉若", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "oshitari", "label": "忍足侑士", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "mukahi", "label": "向日岳人", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "shishido", "label": "宍戸亮", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "jirou", "label": "芥川慈郎", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "ohtori", "label": "鳳長太郎", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "kabaji", "label": "樺地崇弘", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "taki", "label": "滝萩之介", "hasHairChoices": false, "hasTopChoices": true },
+{ "id": "sakaki", "label": "榊太郎", "hasHairChoices": false, "hasTopChoices": false },
+{ "id": "michael", "label": "ミカエル", "hasHairChoices": false, "hasTopChoices": false }
+],
+"base": {
+"atobe": "base/atobe.png",
+"hiyoshi": "base/hiyoshi.png",
+"oshitari": "base/oshitari.png",
+"mukahi": "base/mukahi.png",
+"shishido": "base/shishido.png",
+"jirou": "base/jirou.png",
+"ohtori": "base/ohtori.png",
+"kabaji": "base/kabaji.png",
+"taki": "base/taki.png",
+"sakaki": "base/sakaki.png",
+"michael": "base/michael.png"
+},
+"hair": {
+"atobe": [
+{ "name": "アニメ版", "file": "hair/atobe/anime.png" },
+{ "name": "舞台版", "file": "hair/atobe/stage.png" }
+]
+},
+"tops": [
+{ "name": "氷帝ユニフォーム（跡部アニメVer）", "file": "tops/uniform_atobe_anime.png", "useFor": ["atobe"] },
+{ "name": "氷帝ユニフォーム（共通Ver）", "file": "tops/uniform_common.png", "useFor": ["hiyoshi", "oshitari", "mukahi", "shishido", "jirou", "ohtori", "kabaji", "taki"] },
+{ "name": "氷帝ユニフォーム（慈郎専用短パン）", "file": "tops/uniform_jirou_short.png", "useFor": ["jirou"] },
+{ "name": "氷帝ユニフォーム（鳳ネックレス付き）", "file": "tops/uniform_ohtori_necklace.png", "useFor": ["ohtori"] },
+{ "name": "氷帝制服（共通）", "file": "tops/uniform_school_common.png", "useFor": ["atobe", "hiyoshi", "oshitari", "mukahi", "shishido", "jirou", "ohtori", "kabaji", "taki"] },
+{ "name": "王様衣装（跡部）", "file": "tops/atobe_royal.png", "useFor": ["atobe"] },
+{ "name": "道着（日吉）", "file": "tops/hiyoshi_dougi.png", "useFor": ["hiyoshi"] },
+{ "name": "白タキシード（跡部）", "file": "tops/atobe_tuxedo.png", "useFor": ["atobe"] },
+{ "name": "白タキシード（日吉）", "file": "tops/hiyoshi_tuxedo.png", "useFor": ["hiyoshi"] }
+]
+}
