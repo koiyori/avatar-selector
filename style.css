@@ -1,61 +1,65 @@
-<!-- style.css（シンプルなレイアウト） -->
+/* style.css */
 body {
-  font-family: 'Segoe UI', 'Noto Sans JP', sans-serif;
-  background: #f4f1ec;
-  color: #333;
-  margin: 0;
-  padding: 0;
+font-family: "Helvetica Neue", sans-serif;
+background: #f4fafe;
+color: #333;
+display: flex;
+justify-content: center;
+padding: 2rem;
 }
-
-.container {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;
+main {
+background: white;
+border-radius: 16px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+padding: 2rem;
+width: 360px;
+text-align: center;
 }
-
 h1 {
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  color: #5c4e4e;
+font-size: 1.4rem;
+margin-bottom: 1.5rem;
+color: #2c6a83;
 }
-
-label {
-  margin: 0 10px;
-  font-weight: bold;
+.selector label {
+display: block;
+margin-bottom: 1rem;
+font-weight: bold;
+font-size: 0.95rem;
+text-align: left;
+color: #555;
 }
-
-select {
-  margin: 10px;
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background: #fff;
-  font-size: 1rem;
+.selector select {
+width: 100%;
+padding: 0.4rem;
+font-size: 0.9rem;
+margin-top: 0.3rem;
+border: 1px solid #cce4ec;
+border-radius: 6px;
+background-color: #f0faff;
 }
-
+.preview-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+margin: 1.5rem 0;
+}
 canvas {
-  display: block;
-  margin: 30px auto;
-  background: #fff;
-  border: 2px dashed #aaa;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  width: 96px;
-  height: 128px;
+border: 1px solid #ccc;
+background: #fff;
+border-radius: 8px;
 }
-
 button {
-  background: #7fb3d5;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+background-color: #a8dce6;
+color: #024c5a;
+padding: 0.6rem 1rem;
+font-size: 0.9rem;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s;
+font-weight: bold;
 }
-
 button:hover {
-  background: #5d9cc1;
+background-color: #90cdd9;
 }
