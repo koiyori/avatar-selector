@@ -1,28 +1,35 @@
-<!--  index.htmlの基本サンプル -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>アバター選択ページ</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>アバターセレクター</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>アバターをカスタマイズ</h1>
-    <div class="controls">
-      <label>キャラ：</label>
-      <select id="characterSelect">
-        <option value="攻">攻</option>
-        <option value="受">受</option>
-      </select>
-      <label>髪型：</label>
-      <select id="hairSelect"></select>
-      <label>服装：</label>
-      <select id="topSelect"></select>
+  <main>
+    <h1>アバターセレクター</h1>
+
+    <div class="selector">
+      <label>
+        キャラクター：
+        <select id="characterSelect"></select>
+      </label>
+      <label>
+        髪色：
+        <select id="hairSelect"></select>
+      </label>
+      <label>
+        服装：
+        <select id="topSelect"></select>
+      </label>
     </div>
-    <canvas id="previewCanvas" width="96" height="128"></canvas>
-    <button id="downloadBtn">画像をダウンロード</button>
-  </div>
+
+<div class="preview-container">
+  <canvas id="previewCanvas" width="96" height="128"></canvas>
+  <button id="downloadBtn">画像をダウンロード</button>
+</div>
+  </main>
 
   <script src="script.js"></script>
 </body>
